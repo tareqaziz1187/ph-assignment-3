@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header Section  -->
+    <header class="bg-orange-50">
+        <nav class="flex justify-between lg:justify-around p-7">
+            <div class="flex ">
+                <img class="w-10 lg:w-auto" src="./c1-assets/logo-header.png" alt="">
+                <h1 class="font-bold text-4xl content-center hidden lg:block">Browse4Pets</h1>
+
+            </div>
+            <div class="hidden lg:block">
+                <ul class="flex gap-5">
+                    <li class="text-2xl">Find a pet</li>
+                    <li class="text-2xl">Breeds</li>
+                    <li class="text-2xl">Contact us</li>
+                    
+                </ul>
+
+            </div>
+            <div class="flex gap-5">
+                
+
+                <button class="btn btn-ghost btn-circle hidden lg:block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </button>
+                  <button class="btn btn-ghost btn-circle hidden lg:block">
+                    <div class="indicator">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                      </svg>
+
+                <button class="btn btn-outline btn-warning hidden lg:block">Warning</button>
+                <button class="btn btn-warning hidden lg:block">Warning</button>
+                <i class="fa-solid fa-bars block lg:hidden text-4xl"></i>
+
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Bannar Section -->
+     <section>
+        <div style="background-image: url(./c1-assets/cat-big.png); min-height: 500px; background-repeat: no-repeat; background-position: bottom center; background-size: contain;">
+            <div class="w-full lg:w-[30%] p-5 lg:m-28">
+                <h1 class="text-4xl font-bold">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+                <p class="text-gray-500 py-5">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="btn btn-warning">Warning</button>
+
+                
+                
+            </div>
+        </div>
+     </section>
+
+<!-- Catagoris Section -->
+ <div class=" max-w-[1400px] m-auto">
+    <h1 class="text-3xl py-4 lg:text-5xl lg:py-8">Browse By Categories</h1>
+    <div class="grid grid-cols-2  lg:grid-cols-6  gap-4 ">
+
+        <div class="card bg-[#F9DF8A] shadow-xl ">
+            <figure class="px-10 pt-10">
+              <img
+                src="./c1-assets/dog-cartoon.png"
+                alt="Shoes"
+                class="rounded-full p-7 bg-slate-50" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Dog</h2>
+              <p>3 items</p>
+            
+            </div>
+          </div>
+        <div class="card bg-[#F9DF8A] shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="./c1-assets/fish-cartoon.png"
+                alt="Shoes"
+                class="rounded-full p-7 bg-slate-50" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Dog</h2>
+              <p>3 items</p>
+            
+            </div>
+          </div>
+        <div class="card bg-[#F9DF8A] shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="./c1-assets/cat-cartoon.png"
+                alt="Shoes"
+                class="rounded-full p-7 bg-slate-50" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Dog</h2>
+              <p>3 items</p>
+            
+            </div>
+          </div>
+        <div class="card bg-[#F9DF8A]  shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="./c1-assets/bird-cartoon.png"
+                alt="Shoes"
+                class="rounded-full p-7 bg-slate-50" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Dog</h2>
+              <p>3 items</p>
+            
+            </div>
+          </div>
+        <div class="card bg-[#F9DF8A] shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="./c1-assets/mouse-cartoon.png"
+                alt="Shoes"
+                class="rounded-full p-7 bg-slate-50" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Dog</h2>
+              <p>3 items</p>
+            
+            </div>
+          </div>
+        <div class="card bg-[#F9DF8A]  shadow-xl">
+            <figure class="px-10 pt-10">
+              <img
+                src="./c1-assets/rabbit-cartoon.png"
+                alt="Shoes"
+                class="rounded-full p-7 bg-slate-50" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Dog</h2>
+              <p>3 items</p>
+            
+            </div>
+          </div>
+
+
+    </div>
+ </div>
+
+    
+</body>
+</html>
